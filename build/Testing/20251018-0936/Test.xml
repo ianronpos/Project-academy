@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20251018-0936-Experimental"
+	Name="Ubuntu-22"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="Ubuntu-22"
+	OSRelease="6.8.0-85-generic"
+	OSVersion="#85~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 16:18:59 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="6767"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2918.4"
+	>
+	<Testing>
+		<StartDateTime>Oct 18 17:50 CEST</StartDateTime>
+		<StartTestTime>1760802615</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 18 17:50 CEST</EndDateTime>
+		<EndTestTime>1760802615</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

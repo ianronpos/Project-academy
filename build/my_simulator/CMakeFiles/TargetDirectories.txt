@@ -1,0 +1,10 @@
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/uninstall.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/my_simulator_uninstall.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/talker.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/test.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/edit_cache.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/rebuild_cache.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/list_install_components.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/install.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/install/local.dir
+/home/ian/Documents/ARUS/proyect_academy/build/my_simulator/CMakeFiles/install/strip.dir
