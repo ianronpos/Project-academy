@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_simulator_interfaces__py",
+		"source" : "/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/my_simulator_interfaces__py"
+	}
+}

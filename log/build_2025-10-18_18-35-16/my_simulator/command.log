@@ -1,4 +1,0 @@
-Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
-Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
-Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator
-Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator

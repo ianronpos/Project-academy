@@ -8,6 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(my_simulator_interfaces REQUIRED)
 # uncomment the following section in order to fill in further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
@@ -20,7 +21,7 @@ add_executable(
   talker src/main.cpp src/my_simulator.cpp
   )
 
-ament_target_dependencies(talker rclcpp)
+ament_target_dependencies(talker rclcpp my_simulator_interfaces)
 
 install(TARGETS
   talker

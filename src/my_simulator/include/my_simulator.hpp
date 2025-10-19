@@ -1,4 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
+#include "my_simulator_interfaces/msg/comando.hpp"
 
 class MySimulator : public rclcpp::Node{ 
     public:  

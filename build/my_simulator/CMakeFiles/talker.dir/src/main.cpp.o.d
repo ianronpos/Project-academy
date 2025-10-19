@@ -618,4 +618,12 @@ CMakeFiles/talker.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/ian/Documents/ARUS/proyect_academy/src/my_simulator/include/my_simulator.hpp
+ /home/ian/Documents/ARUS/proyect_academy/src/my_simulator/include/my_simulator.hpp \
+ /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/comando.hpp \
+ /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+ /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__builder.hpp \
+ /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+ /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.hpp \
+ /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp

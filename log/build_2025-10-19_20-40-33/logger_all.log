@@ -1,0 +1,221 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x783381265540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x783381372440>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x783381372440>>, mixin_verb=('build',))
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.148s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ian/Documents/ARUS/proyect_academy'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_simulator' with type 'ros.ament_cmake' and name 'my_simulator'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulator_interfaces) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_simulator_interfaces' with type 'ros.ament_cmake' and name 'my_simulator_interfaces'
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ian/Documents/ARUS/proyect_academy/install
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.203s] DEBUG:colcon.colcon_core.verb:Building package 'my_simulator_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces', 'merge_install': False, 'path': '/home/ian/Documents/ARUS/proyect_academy/src/my_simulator_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'my_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.203s] DEBUG:colcon.colcon_core.verb:Building package 'my_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator', 'merge_install': False, 'path': '/home/ian/Documents/ARUS/proyect_academy/src/my_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.203s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.205s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ian/Documents/ARUS/proyect_academy/src/my_simulator_interfaces' with build type 'ament_cmake'
+[0.205s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ian/Documents/ARUS/proyect_academy/src/my_simulator_interfaces'
+[0.206s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ian/Documents/ARUS/proyect_academy/src/my_simulator_interfaces -DCMAKE_INSTALL_PREFIX=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces
+[1.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ian/Documents/ARUS/proyect_academy/src/my_simulator_interfaces -DCMAKE_INSTALL_PREFIX=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces
+[1.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces -- -j4 -l4
+[2.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces -- -j4 -l4
+[2.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces
+[2.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_simulator_interfaces)
+[2.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces' for CMake module files
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces' for CMake config files
+[2.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulator_interfaces', 'cmake_prefix_path')
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/cmake_prefix_path.ps1'
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/cmake_prefix_path.dsv'
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/cmake_prefix_path.sh'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib'
+[2.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulator_interfaces', 'ld_library_path_lib')
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/ld_library_path_lib.ps1'
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/ld_library_path_lib.dsv'
+[2.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/ld_library_path_lib.sh'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/bin'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/pkgconfig/my_simulator_interfaces.pc'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/python3.10/site-packages'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/bin'
+[2.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.ps1'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.dsv'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.sh'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.bash'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.zsh'
+[2.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/colcon-core/packages/my_simulator_interfaces)
+[2.543s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_simulator_interfaces)
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces' for CMake module files
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces' for CMake config files
+[2.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulator_interfaces', 'cmake_prefix_path')
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/cmake_prefix_path.ps1'
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/cmake_prefix_path.dsv'
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/cmake_prefix_path.sh'
+[2.545s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib'
+[2.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulator_interfaces', 'ld_library_path_lib')
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/ld_library_path_lib.ps1'
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/ld_library_path_lib.dsv'
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/hook/ld_library_path_lib.sh'
+[2.545s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/bin'
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/pkgconfig/my_simulator_interfaces.pc'
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/python3.10/site-packages'
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/bin'
+[2.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.ps1'
+[2.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.dsv'
+[2.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.sh'
+[2.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.bash'
+[2.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.zsh'
+[2.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/colcon-core/packages/my_simulator_interfaces)
+[2.548s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ian/Documents/ARUS/proyect_academy/src/my_simulator' with build type 'ament_cmake'
+[2.548s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ian/Documents/ARUS/proyect_academy/src/my_simulator'
+[2.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake /home/ian/Documents/ARUS/proyect_academy/src/my_simulator -DCMAKE_INSTALL_PREFIX=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator
+[3.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake /home/ian/Documents/ARUS/proyect_academy/src/my_simulator -DCMAKE_INSTALL_PREFIX=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator
+[3.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
+[5.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
+[5.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator
+[5.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_simulator)
+[5.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator
+[5.251s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator' for CMake module files
+[5.252s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator' for CMake config files
+[5.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulator', 'cmake_prefix_path')
+[5.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/hook/cmake_prefix_path.ps1'
+[5.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/hook/cmake_prefix_path.dsv'
+[5.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/hook/cmake_prefix_path.sh'
+[5.253s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib'
+[5.253s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/bin'
+[5.253s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/pkgconfig/my_simulator.pc'
+[5.253s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/python3.10/site-packages'
+[5.253s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/bin'
+[5.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.ps1'
+[5.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.dsv'
+[5.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.sh'
+[5.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.bash'
+[5.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.zsh'
+[5.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/colcon-core/packages/my_simulator)
+[5.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_simulator)
+[5.255s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator' for CMake module files
+[5.255s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator' for CMake config files
+[5.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulator', 'cmake_prefix_path')
+[5.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/hook/cmake_prefix_path.ps1'
+[5.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/hook/cmake_prefix_path.dsv'
+[5.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/hook/cmake_prefix_path.sh'
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib'
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/bin'
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/pkgconfig/my_simulator.pc'
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/python3.10/site-packages'
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/bin'
+[5.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.ps1'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.dsv'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.sh'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.bash'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.zsh'
+[5.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/colcon-core/packages/my_simulator)
+[5.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.259s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.262s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.271s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ian/Documents/ARUS/proyect_academy/install/local_setup.ps1'
+[5.272s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ian/Documents/ARUS/proyect_academy/install/_local_setup_util_ps1.py'
+[5.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ian/Documents/ARUS/proyect_academy/install/setup.ps1'
+[5.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ian/Documents/ARUS/proyect_academy/install/local_setup.sh'
+[5.274s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ian/Documents/ARUS/proyect_academy/install/_local_setup_util_sh.py'
+[5.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ian/Documents/ARUS/proyect_academy/install/setup.sh'
+[5.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ian/Documents/ARUS/proyect_academy/install/local_setup.bash'
+[5.275s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ian/Documents/ARUS/proyect_academy/install/setup.bash'
+[5.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ian/Documents/ARUS/proyect_academy/install/local_setup.zsh'
+[5.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ian/Documents/ARUS/proyect_academy/install/setup.zsh'

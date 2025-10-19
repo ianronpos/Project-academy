@@ -1,0 +1,76 @@
+[0.005s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake /home/ian/Documents/ARUS/proyect_academy/src/my_simulator -DCMAKE_INSTALL_PREFIX=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.078s] -- The CXX compiler identification is GNU 11.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.137s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.202s] -- Detecting CXX compile features
+[0.202s] -- Detecting CXX compile features - done
+[0.202s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.297s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.352s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.374s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.381s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.478s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.493s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.515s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.522s] -- Looking for pthread.h
+[0.574s] -- Looking for pthread.h - found
+[0.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.622s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.623s] -- Found Threads: TRUE  
+[0.658s] -- Found my_simulator_interfaces: 0.0.0 (/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake)
+[0.676s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.723s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.724s] -- Configured cppcheck include dirs: /home/ian/Documents/ARUS/proyect_academy/src/my_simulator/include
+[0.724s] -- Configured cppcheck exclude dirs and/or files: 
+[0.724s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.725s] -- Added test 'lint_cmake' to check CMake code style
+[0.725s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.725s] -- Added test 'uncrustify' to check C / C++ code style
+[0.725s] -- Configured uncrustify additional arguments: 
+[0.726s] -- Added test 'xmllint' to check XML markup files
+[0.727s] -- Configuring done
+[0.733s] -- Generating done
+[0.735s] -- Build files have been written to: /home/ian/Documents/ARUS/proyect_academy/build/my_simulator
+[0.742s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake /home/ian/Documents/ARUS/proyect_academy/src/my_simulator -DCMAKE_INSTALL_PREFIX=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator
+[0.744s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
+[0.777s] [ 66%] [32mBuilding CXX object CMakeFiles/talker.dir/src/main.cpp.o[0m
+[0.777s] [ 66%] [32mBuilding CXX object CMakeFiles/talker.dir/src/my_simulator.cpp.o[0m
+[2.605s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.684s] [100%] Built target talker
+[2.693s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
+[2.694s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator
+[2.700s] -- Install configuration: ""
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/talker
+[2.700s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/talker" to ""
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch/my_simulator_launch.py
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config/my_simulator.rviz
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/package_run_dependencies/my_simulator
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/parent_prefix_path/my_simulator
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/ament_prefix_path.sh
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/ament_prefix_path.dsv
+[2.700s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/path.sh
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/path.dsv
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.bash
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.sh
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.zsh
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.dsv
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.dsv
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/packages/my_simulator
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/cmake/my_simulatorConfig.cmake
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/cmake/my_simulatorConfig-version.cmake
+[2.701s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.xml
+[2.702s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator

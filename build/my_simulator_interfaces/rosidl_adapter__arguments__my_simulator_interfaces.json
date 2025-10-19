@@ -1,0 +1,6 @@
+{
+  "package_name": "my_simulator_interfaces",
+  "non_idl_tuples": [
+    "/home/ian/Documents/ARUS/proyect_academy/src/my_simulator_interfaces:msg/Comando.msg"
+  ]
+}
