@@ -14,10 +14,6 @@
 #include "my_simulator_interfaces/msg/detail/comando__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
-// Include directives for member types
-// Member 'coordinates'
-#include "geometry_msgs/msg/detail/point__traits.hpp"
-
 namespace my_simulator_interfaces
 {
 
@@ -40,13 +36,6 @@ inline void to_flow_style_yaml(
   {
     out << "delta: ";
     rosidl_generator_traits::value_to_yaml(msg.delta, out);
-    out << ", ";
-  }
-
-  // member: coordinates
-  {
-    out << "coordinates: ";
-    to_flow_style_yaml(msg.coordinates, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -73,15 +62,6 @@ inline void to_block_style_yaml(
     out << "delta: ";
     rosidl_generator_traits::value_to_yaml(msg.delta, out);
     out << "\n";
-  }
-
-  // member: coordinates
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "coordinates:\n";
-    to_block_style_yaml(msg.coordinates, out, indentation + 2);
   }
 }  // NOLINT(readability/fn_size)
 
@@ -131,11 +111,11 @@ inline const char * name<my_simulator_interfaces::msg::Comando>()
 
 template<>
 struct has_fixed_size<my_simulator_interfaces::msg::Comando>
-  : std::integral_constant<bool, has_fixed_size<geometry_msgs::msg::Point>::value> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct has_bounded_size<my_simulator_interfaces::msg::Comando>
-  : std::integral_constant<bool, has_bounded_size<geometry_msgs::msg::Point>::value> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct is_message<my_simulator_interfaces::msg::Comando>

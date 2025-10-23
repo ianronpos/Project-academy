@@ -12,12 +12,6 @@
 #include "my_simulator_interfaces/msg/detail/comando__struct.h"
 
 
-// Include directives for member types
-// Member `coordinates`
-#include "geometry_msgs/msg/point.h"
-// Member `coordinates`
-#include "geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h"
-
 #ifdef __cplusplus
 extern "C"
 {
@@ -37,7 +31,7 @@ void my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__
   my_simulator_interfaces__msg__Comando__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__Comando_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__Comando_message_member_array[2] = {
   {
     "acc",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -71,30 +65,13 @@ static rosidl_typesupport_introspection_c__MessageMember my_simulator_interfaces
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
-  },
-  {
-    "coordinates",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message (initialized later)
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(my_simulator_interfaces__msg__Comando, coordinates),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__Comando_message_members = {
   "my_simulator_interfaces__msg",  // message namespace
   "Comando",  // message name
-  3,  // number of fields
+  2,  // number of fields
   sizeof(my_simulator_interfaces__msg__Comando),
   my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__Comando_message_member_array,  // message members
   my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__Comando_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -112,8 +89,6 @@ static rosidl_message_type_support_t my_simulator_interfaces__msg__Comando__rosi
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_my_simulator_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, my_simulator_interfaces, msg, Comando)() {
-  my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__Comando_message_member_array[2].members_ =
-    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Point)();
   if (!my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__Comando_message_type_support_handle.typesupport_identifier) {
     my_simulator_interfaces__msg__Comando__rosidl_typesupport_introspection_c__Comando_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

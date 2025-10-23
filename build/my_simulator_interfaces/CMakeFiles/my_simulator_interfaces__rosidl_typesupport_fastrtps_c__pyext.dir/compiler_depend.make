@@ -245,11 +245,8 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/ros
   rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__type_support.h \
   rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__functions.h
 
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h:
 

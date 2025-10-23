@@ -2,7 +2,6 @@
 // with input from my_simulator_interfaces/msg/Comando.msg
 // generated code does not contain a copyright notice
 
-#include "geometry_msgs/msg/Point.idl"
 
 module my_simulator_interfaces {
   module msg {
@@ -10,8 +9,6 @@ module my_simulator_interfaces {
       float acc;
 
       float delta;
-
-      geometry_msgs::msg::Point coordinates;
     };
   };
 };

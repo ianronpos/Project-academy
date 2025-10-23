@@ -44,10 +44,6 @@ class Metaclass_Comando(type):
             cls._TYPE_SUPPORT = module.type_support_msg__msg__comando
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__comando
 
-            from geometry_msgs.msg import Point
-            if Point.__class__._TYPE_SUPPORT is None:
-                Point.__class__.__import_type_support__()
-
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -63,19 +59,16 @@ class Comando(metaclass=Metaclass_Comando):
     __slots__ = [
         '_acc',
         '_delta',
-        '_coordinates',
     ]
 
     _fields_and_field_types = {
         'acc': 'float',
         'delta': 'float',
-        'coordinates': 'geometry_msgs/Point',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'Point'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -84,8 +77,6 @@ class Comando(metaclass=Metaclass_Comando):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.acc = kwargs.get('acc', float())
         self.delta = kwargs.get('delta', float())
-        from geometry_msgs.msg import Point
-        self.coordinates = kwargs.get('coordinates', Point())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -119,8 +110,6 @@ class Comando(metaclass=Metaclass_Comando):
         if self.acc != other.acc:
             return False
         if self.delta != other.delta:
-            return False
-        if self.coordinates != other.coordinates:
             return False
         return True
 
@@ -158,17 +147,3 @@ class Comando(metaclass=Metaclass_Comando):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'delta' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._delta = value
-
-    @builtins.property
-    def coordinates(self):
-        """Message field 'coordinates'."""
-        return self._coordinates
-
-    @coordinates.setter
-    def coordinates(self, value):
-        if __debug__:
-            from geometry_msgs.msg import Point
-            assert \
-                isinstance(value, Point), \
-                "The 'coordinates' field must be a sub message of type 'Point'"
-        self._coordinates = value

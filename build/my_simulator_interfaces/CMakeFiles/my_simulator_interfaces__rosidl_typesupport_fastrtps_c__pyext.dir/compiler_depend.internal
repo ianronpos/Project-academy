@@ -246,6 +246,5 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/ros
  /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__type_support.h
  /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h
  /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h
  /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__functions.h
 

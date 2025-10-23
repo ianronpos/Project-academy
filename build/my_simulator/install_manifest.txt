@@ -1,4 +1,4 @@
-/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/talker
+/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/my_simulator
 /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch/my_simulator_launch.py
 /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config/my_simulator.rviz
 /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/package_run_dependencies/my_simulator

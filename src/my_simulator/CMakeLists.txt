@@ -18,13 +18,13 @@ include_directories(
 
 #Crear ejecutable 
 add_executable(
-  talker src/main.cpp src/my_simulator.cpp
+  my_simulator src/main.cpp src/my_simulator.cpp
   )
 
-ament_target_dependencies(talker rclcpp my_simulator_interfaces)
+ament_target_dependencies(my_simulator rclcpp my_simulator_interfaces)
 
 install(TARGETS
-  talker
+  my_simulator
   DESTINATION lib/${PROJECT_NAME}
 )
 

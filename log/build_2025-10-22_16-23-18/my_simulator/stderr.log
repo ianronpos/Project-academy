@@ -1,0 +1,23 @@
+[01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/my_simulator.cpp:[m[K In member function ‘[01m[Kvoid MySimulator::updateState()[m[K’:
+[01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/my_simulator.cpp:33:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+   33 |       std::bind(&MySimulator::callback, this, std::placeholders::_1))
+      |                                                                      [01;31m[K^[m[K
+      |                                                                      [32m[K;[m[K
+......
+   36 |     [32m[Krclcpp[m[K::Time now = this->now();
+      |     [32m[K~~~~~~[m[K                                                            
+[01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/my_simulator.cpp:37:17:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   37 |     double dt = [01;31m[Know[m[K.seconds() - last_time_.seconds();
+      |                 [01;31m[K^~~[m[K
+      |                    [32m[K()[m[K
+[01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/my_simulator.cpp:40:8:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   40 |     if([01;31m[Know[m[K.seconds() -last_time_.seconds() > 60.0){
+      |        [01;31m[K^~~[m[K
+      |           [32m[K()[m[K
+[01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/my_simulator.cpp:40:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kseconds[m[K’
+   40 |     if[34m[K([m[Know.[01;31m[Ks[m[K[32m[Keconds[m[K() -last_time_.seconds() > 60.0){
+      |       [34m[K~[m[K    [01;31m[K^[m[K[32m[K~~~~~~[m[K
+      |            [32m[K)[m[K
+gmake[2]: *** [CMakeFiles/my_simulator.dir/build.make:90: CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_simulator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

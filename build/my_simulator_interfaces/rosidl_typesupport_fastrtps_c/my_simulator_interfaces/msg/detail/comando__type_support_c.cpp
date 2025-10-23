@@ -34,23 +34,8 @@ extern "C"
 {
 #endif
 
-#include "geometry_msgs/msg/detail/point__functions.h"  // coordinates
 
 // forward declare type support functions
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_my_simulator_interfaces
-size_t get_serialized_size_geometry_msgs__msg__Point(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_my_simulator_interfaces
-size_t max_serialized_size_geometry_msgs__msg__Point(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_my_simulator_interfaces
-const rosidl_message_type_support_t *
-  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point)();
 
 
 using _Comando__ros_msg_type = my_simulator_interfaces__msg__Comando;
@@ -74,20 +59,6 @@ static bool _Comando__cdr_serialize(
     cdr << ros_message->delta;
   }
 
-  // Field name: coordinates
-  {
-    const message_type_support_callbacks_t * callbacks =
-      static_cast<const message_type_support_callbacks_t *>(
-      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point
-      )()->data);
-    if (!callbacks->cdr_serialize(
-        &ros_message->coordinates, cdr))
-    {
-      return false;
-    }
-  }
-
   return true;
 }
 
@@ -108,20 +79,6 @@ static bool _Comando__cdr_deserialize(
   // Field name: delta
   {
     cdr >> ros_message->delta;
-  }
-
-  // Field name: coordinates
-  {
-    const message_type_support_callbacks_t * callbacks =
-      static_cast<const message_type_support_callbacks_t *>(
-      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point
-      )()->data);
-    if (!callbacks->cdr_deserialize(
-        cdr, &ros_message->coordinates))
-    {
-      return false;
-    }
   }
 
   return true;
@@ -153,10 +110,6 @@ size_t get_serialized_size_my_simulator_interfaces__msg__Comando(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name coordinates
-
-  current_alignment += get_serialized_size_geometry_msgs__msg__Point(
-    &(ros_message->coordinates), current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -202,25 +155,6 @@ size_t max_serialized_size_my_simulator_interfaces__msg__Comando(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: coordinates
-  {
-    size_t array_size = 1;
-
-
-    last_member_size = 0;
-    for (size_t index = 0; index < array_size; ++index) {
-      bool inner_full_bounded;
-      bool inner_is_plain;
-      size_t inner_size;
-      inner_size =
-        max_serialized_size_geometry_msgs__msg__Point(
-        inner_full_bounded, inner_is_plain, current_alignment);
-      last_member_size += inner_size;
-      current_alignment += inner_size;
-      full_bounded &= inner_full_bounded;
-      is_plain &= inner_is_plain;
-    }
-  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -230,7 +164,7 @@ size_t max_serialized_size_my_simulator_interfaces__msg__Comando(
     using DataType = my_simulator_interfaces__msg__Comando;
     is_plain =
       (
-      offsetof(DataType, coordinates) +
+      offsetof(DataType, delta) +
       last_member_size
       ) == ret_val;
   }

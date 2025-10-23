@@ -30,7 +30,6 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__type_support.h \
   rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h \
   /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h \
@@ -42,8 +41,6 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_
 /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h:
 
 rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__type_support.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 /usr/include/features.h:
 

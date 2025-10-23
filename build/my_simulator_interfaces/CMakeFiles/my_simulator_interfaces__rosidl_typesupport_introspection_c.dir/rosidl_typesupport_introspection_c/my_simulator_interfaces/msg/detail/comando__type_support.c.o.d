@@ -56,11 +56,4 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_introspection_c.dir/rosid
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+ /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h

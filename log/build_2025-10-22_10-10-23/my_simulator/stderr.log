@@ -1,0 +1,7 @@
+[01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/my_simulator.cpp:[m[K In member function ‘[01m[Kvoid MySimulator::updateState()[m[K’:
+[01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/my_simulator.cpp:18:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmy_simulator_interfaces::msg::Comando[m[K’ {aka ‘[01m[Kmy_simulator_interfaces::msg::Comando_<std::allocator<void> >[m[K’}
+   18 |     yaw_rate_ = last_command_[01;31m[K->[m[Kacc;
+      |                              [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:90: CMakeFiles/talker.dir/src/my_simulator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

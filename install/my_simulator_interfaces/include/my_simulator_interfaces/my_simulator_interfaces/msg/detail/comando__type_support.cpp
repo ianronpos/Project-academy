@@ -37,7 +37,7 @@ void Comando_fini_function(void * message_memory)
   typed_message->~Comando();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Comando_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Comando_message_member_array[2] = {
   {
     "acc",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
@@ -71,30 +71,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Comando_messa
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "coordinates",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
-    0,  // upper bound of string
-    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<geometry_msgs::msg::Point>(),  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(my_simulator_interfaces::msg::Comando, coordinates),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Comando_message_members = {
   "my_simulator_interfaces::msg",  // message namespace
   "Comando",  // message name
-  3,  // number of fields
+  2,  // number of fields
   sizeof(my_simulator_interfaces::msg::Comando),
   Comando_message_member_array,  // message members
   Comando_init_function,  // function to initialize message memory (memory has to be allocated)

@@ -7,7 +7,6 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_runtime REQUIRED) #Dependencia que se usa en tiempo de ejecucion para poder usar mensajes personalizados 
 find_package(rosidl_default_generators REQUIRED) #Contiene macros para crear mensages personalizados
 # uncomment the following section in order to fill in
@@ -17,7 +16,6 @@ find_package(rosidl_default_generators REQUIRED) #Contiene macros para crear men
 #Genera el codigo fuente necesario para los mensajes perosnalizados
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Comando.msg"
-  DEPENDENCIES geometry_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)

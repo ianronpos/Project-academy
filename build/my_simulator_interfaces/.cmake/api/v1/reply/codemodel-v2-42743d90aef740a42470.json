@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-67e0f5d483c701f030f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "my_simulator_interfaces__py",
+					"jsonFile" : "directory-my_simulator_interfaces__py-6bafc7dddb5c2d2313f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/my_simulator_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_simulator_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_simulator_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_simulator_interfaces_egg-ccd41799712100094955.json",
+					"name" : "ament_cmake_python_build_my_simulator_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_simulator_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_simulator_interfaces-2d5b658a732110850765.json",
+					"name" : "ament_cmake_python_copy_my_simulator_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces-596a15fb2431792c25eb.json",
+					"name" : "my_simulator_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__cpp-8978c524f1c26e80c0dd.json",
+					"name" : "my_simulator_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_simulator_interfaces__py::@460fda0f7bd15a6ee67f",
+					"jsonFile" : "target-my_simulator_interfaces__py-2931c3afb2967e692f02.json",
+					"name" : "my_simulator_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_generator_c-b73d52610dd4057db11b.json",
+					"name" : "my_simulator_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_generator_py-a078ad417628d88ea7d3.json",
+					"name" : "my_simulator_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_c-a340b306a51a7af199cd.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_c__pyext-4b2b32a1c18e5055e092.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_cpp-e07280f482d77221546f.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_fastrtps_c-ad208cc955d3953caa48.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext-241d3ab928b40d762474.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_fastrtps_cpp-5557e11c5cb8538499b6.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_introspection_c-ed81f7b2fcee55789b5d.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_introspection_c__pyext-88546df23fe10ba719e2.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces__rosidl_typesupport_introspection_cpp-dcd9d46991630c88825f.json",
+					"name" : "my_simulator_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_simulator_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_simulator_interfaces_uninstall-f3429cde6aea8139cfb6.json",
+					"name" : "my_simulator_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b7a8603169ed9d370cad.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces",
+		"source" : "/home/ian/Documents/ARUS/proyect_academy/src/my_simulator_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

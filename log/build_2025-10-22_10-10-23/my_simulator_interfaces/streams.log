@@ -1,0 +1,224 @@
+[0.031s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces -- -j4 -l4
+[0.141s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.345s] -- Found rosidl_default_runtime: 1.2.0 (/opt/ros/humble/share/rosidl_default_runtime/cmake)
+[0.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.389s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.474s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.747s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.218s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.244s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.244s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.244s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.282s] -- Configuring done
+[1.338s] -- Generating done
+[1.352s] -- Build files have been written to: /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces
+[1.376s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.393s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.407s] [  6%] Built target ament_cmake_python_copy_my_simulator_interfaces
+[1.652s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_generator_c[0m
+[1.656s] [  6%] Built target my_simulator_interfaces__cpp
+[1.660s] running egg_info
+[1.660s] writing my_simulator_interfaces.egg-info/PKG-INFO
+[1.661s] writing dependency_links to my_simulator_interfaces.egg-info/dependency_links.txt
+[1.661s] writing top-level names to my_simulator_interfaces.egg-info/top_level.txt
+[1.661s] reading manifest file 'my_simulator_interfaces.egg-info/SOURCES.txt'
+[1.662s] writing manifest file 'my_simulator_interfaces.egg-info/SOURCES.txt'
+[1.666s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.667s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.683s] [ 16%] [32mBuilding C object CMakeFiles/my_simulator_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__functions.c.o[0m
+[1.694s] [ 16%] Built target ament_cmake_python_build_my_simulator_interfaces_egg
+[1.705s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.791s] [ 22%] [32m[1mLinking C shared library libmy_simulator_interfaces__rosidl_generator_c.so[0m
+[1.843s] [ 22%] Built target my_simulator_interfaces__rosidl_generator_c
+[1.851s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.902s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_cpp[0m
+[1.914s] [ 29%] [32mBuilding CXX object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_simulator_interfaces/msg/comando__type_support.cpp.o[0m
+[1.919s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.933s] [ 32%] [32mBuilding CXX object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_simulator_interfaces/msg/detail/dds_fastrtps/comando__type_support.cpp.o[0m
+[1.960s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.973s] [ 35%] [32mBuilding CXX object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_simulator_interfaces/msg/detail/comando__type_support.cpp.o[0m
+[2.137s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.148s] [ 38%] [32mBuilding CXX object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_simulator_interfaces/msg/detail/comando__type_support_c.cpp.o[0m
+[2.222s] [ 41%] [32m[1mLinking CXX shared library libmy_simulator_interfaces__rosidl_typesupport_cpp.so[0m
+[2.271s] [ 41%] Built target my_simulator_interfaces__rosidl_typesupport_cpp
+[2.286s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.337s] [ 48%] [32m[1mLinking CXX shared library libmy_simulator_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.382s] [ 51%] [32m[1mLinking CXX shared library libmy_simulator_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.411s] [ 51%] Built target my_simulator_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.425s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.429s] [ 54%] Built target my_simulator_interfaces__rosidl_typesupport_introspection_cpp
+[2.480s] [ 58%] [32m[1mLinking CXX shared library libmy_simulator_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.522s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_introspection_c[0m
+[2.537s] [ 61%] [32mBuilding C object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_simulator_interfaces/msg/detail/comando__type_support.c.o[0m
+[2.560s] [ 61%] Built target my_simulator_interfaces__rosidl_typesupport_fastrtps_c
+[2.574s] [ 64%] [32m[1mLinking C shared library libmy_simulator_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.607s] [ 64%] Built target my_simulator_interfaces__rosidl_typesupport_introspection_c
+[2.628s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_c[0m
+[2.638s] [ 67%] [32mBuilding CXX object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_simulator_interfaces/msg/comando__type_support.cpp.o[0m
+[2.666s] [ 70%] [32m[1mLinking CXX shared library libmy_simulator_interfaces__rosidl_typesupport_c.so[0m
+[2.705s] [ 70%] Built target my_simulator_interfaces__rosidl_typesupport_c
+[2.725s] [ 70%] Built target my_simulator_interfaces
+[2.743s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.025s] [ 74%] Built target my_simulator_interfaces__py
+[3.036s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_generator_py[0m
+[3.048s] [ 77%] [32mBuilding C object CMakeFiles/my_simulator_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_simulator_interfaces/msg/_comando_s.c.o[0m
+[3.217s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_simulator_interfaces/libmy_simulator_interfaces__rosidl_generator_py.so[0m
+[3.258s] [ 80%] Built target my_simulator_interfaces__rosidl_generator_py
+[3.270s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.270s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.273s] [35m[1mConsolidate compiler generated dependencies of target my_simulator_interfaces__rosidl_typesupport_c__pyext[0m
+[3.282s] [ 83%] [32mBuilding C object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.285s] [ 87%] [32mBuilding C object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.288s] [ 90%] [32mBuilding C object CMakeFiles/my_simulator_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.369s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.372s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.373s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.405s] [100%] Built target my_simulator_interfaces__rosidl_typesupport_c__pyext
+[3.407s] [100%] Built target my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.411s] [100%] Built target my_simulator_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.422s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces -- -j4 -l4
+[3.432s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces
+[3.441s] -- Install configuration: ""
+[3.441s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_simulator_interfaces
+[3.441s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces
+[3.441s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg
+[3.441s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.441s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail
+[3.441s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.h
+[3.441s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__functions.h
+[3.441s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__struct.h
+[3.441s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__functions.c
+[3.441s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/comando.h
+[3.441s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/library_path.sh
+[3.441s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/library_path.dsv
+[3.443s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_generator_c.so
+[3.443s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_generator_c.so" to ""
+[3.443s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces
+[3.443s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg
+[3.443s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail
+[3.443s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__rosidl_typesupport_fastrtps_c.h
+[3.443s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.444s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.444s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.444s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces
+[3.444s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg
+[3.444s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail
+[3.445s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__rosidl_typesupport_introspection_c.h
+[3.445s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.c
+[3.445s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.445s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_introspection_c.so
+[3.446s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.446s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_c.so
+[3.447s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_c.so" to ""
+[3.447s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces
+[3.447s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg
+[3.447s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail
+[3.447s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.hpp
+[3.447s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__traits.hpp
+[3.447s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__builder.hpp
+[3.447s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__struct.hpp
+[3.447s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/comando.hpp
+[3.447s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.447s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces
+[3.448s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg
+[3.448s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail
+[3.448s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__rosidl_typesupport_fastrtps_cpp.hpp
+[3.448s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/dds_fastrtps
+[3.448s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.449s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.449s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.449s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces
+[3.449s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg
+[3.449s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail
+[3.449s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__rosidl_typesupport_introspection_cpp.hpp
+[3.449s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.cpp
+[3.450s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.450s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.452s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_cpp.so
+[3.452s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.452s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/pythonpath.sh
+[3.452s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/pythonpath.dsv
+[3.452s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info
+[3.452s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.452s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.453s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/__init__.py
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.453s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg/__init__.py
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg/_comando_s.c
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg/_comando.py
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.453s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.454s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.454s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/libmy_simulator_interfaces__rosidl_generator_py.so
+[3.454s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_c.c
+[3.488s] Listing '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces'...
+[3.488s] Compiling '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/__init__.py'...
+[3.488s] Listing '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg'...
+[3.488s] Compiling '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg/__init__.py'...
+[3.488s] Compiling '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg/_comando.py'...
+[3.492s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.492s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.492s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.493s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.493s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.493s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.494s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_generator_py.so
+[3.495s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_generator_py.so" to ""
+[3.495s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/msg/Comando.idl
+[3.495s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/msg/Comando.msg
+[3.496s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/ament_index/resource_index/package_run_dependencies/my_simulator_interfaces
+[3.496s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/ament_index/resource_index/parent_prefix_path/my_simulator_interfaces
+[3.497s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/ament_prefix_path.sh
+[3.497s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/ament_prefix_path.dsv
+[3.497s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/path.sh
+[3.497s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/path.dsv
+[3.497s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/local_setup.bash
+[3.497s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/local_setup.sh
+[3.497s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/local_setup.zsh
+[3.497s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/local_setup.dsv
+[3.497s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.dsv
+[3.497s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/ament_index/resource_index/packages/my_simulator_interfaces
+[3.497s] -- Old export file "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[3.497s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_cExport.cmake
+[3.498s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.498s] -- Old export file "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[3.498s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.498s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.498s] -- Old export file "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[3.498s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.498s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.498s] -- Old export file "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[3.498s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cExport.cmake
+[3.498s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.499s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_cppExport.cmake
+[3.499s] -- Old export file "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[3.499s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.499s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.499s] -- Old export file "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[3.499s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.499s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.499s] -- Old export file "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[3.499s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cppExport.cmake
+[3.500s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.500s] -- Old export file "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[3.500s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_pyExport.cmake
+[3.500s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.500s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.500s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.500s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.501s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.501s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.501s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.501s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.501s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfacesConfig.cmake
+[3.501s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfacesConfig-version.cmake
+[3.501s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.xml
+[3.504s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces

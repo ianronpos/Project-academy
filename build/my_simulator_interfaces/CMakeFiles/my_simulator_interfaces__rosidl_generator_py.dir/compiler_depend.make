@@ -249,12 +249,9 @@ CMakeFiles/my_simulator_interfaces__rosidl_generator_py.dir/rosidl_generator_py/
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__functions.h \
   rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h
 
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h:
 

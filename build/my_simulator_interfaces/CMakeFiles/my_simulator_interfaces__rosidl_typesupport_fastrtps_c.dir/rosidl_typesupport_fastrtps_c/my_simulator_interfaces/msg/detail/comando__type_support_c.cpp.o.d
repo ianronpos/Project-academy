@@ -183,9 +183,6 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typ
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/malloc.h \
  /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__functions.h \
  /usr/include/c++/11/stdlib.h \
- /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+ /home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces/rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h

@@ -15,10 +15,6 @@
 #include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
-// Include directives for member types
-// Member 'coordinates'
-#include "geometry_msgs/msg/detail/point__struct.hpp"
-
 #ifndef _WIN32
 # define DEPRECATED__my_simulator_interfaces__msg__Comando __attribute__((deprecated))
 #else
@@ -38,7 +34,6 @@ struct Comando_
   using Type = Comando_<ContainerAllocator>;
 
   explicit Comando_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : coordinates(_init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -49,8 +44,8 @@ struct Comando_
   }
 
   explicit Comando_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : coordinates(_alloc, _init)
   {
+    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
@@ -66,9 +61,6 @@ struct Comando_
   using _delta_type =
     float;
   _delta_type delta;
-  using _coordinates_type =
-    geometry_msgs::msg::Point_<ContainerAllocator>;
-  _coordinates_type coordinates;
 
   // setters for named parameter idiom
   Type & set__acc(
@@ -81,12 +73,6 @@ struct Comando_
     const float & _arg)
   {
     this->delta = _arg;
-    return *this;
-  }
-  Type & set__coordinates(
-    const geometry_msgs::msg::Point_<ContainerAllocator> & _arg)
-  {
-    this->coordinates = _arg;
     return *this;
   }
 
@@ -136,9 +122,6 @@ struct Comando_
       return false;
     }
     if (this->delta != other.delta) {
-      return false;
-    }
-    if (this->coordinates != other.coordinates) {
       return false;
     }
     return true;

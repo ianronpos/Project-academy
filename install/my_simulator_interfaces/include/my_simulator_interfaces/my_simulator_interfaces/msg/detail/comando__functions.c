@@ -11,10 +11,6 @@
 #include "rcutils/allocator.h"
 
 
-// Include directives for member types
-// Member `coordinates`
-#include "geometry_msgs/msg/detail/point__functions.h"
-
 bool
 my_simulator_interfaces__msg__Comando__init(my_simulator_interfaces__msg__Comando * msg)
 {
@@ -23,11 +19,6 @@ my_simulator_interfaces__msg__Comando__init(my_simulator_interfaces__msg__Comand
   }
   // acc
   // delta
-  // coordinates
-  if (!geometry_msgs__msg__Point__init(&msg->coordinates)) {
-    my_simulator_interfaces__msg__Comando__fini(msg);
-    return false;
-  }
   return true;
 }
 
@@ -39,8 +30,6 @@ my_simulator_interfaces__msg__Comando__fini(my_simulator_interfaces__msg__Comand
   }
   // acc
   // delta
-  // coordinates
-  geometry_msgs__msg__Point__fini(&msg->coordinates);
 }
 
 bool
@@ -55,12 +44,6 @@ my_simulator_interfaces__msg__Comando__are_equal(const my_simulator_interfaces__
   }
   // delta
   if (lhs->delta != rhs->delta) {
-    return false;
-  }
-  // coordinates
-  if (!geometry_msgs__msg__Point__are_equal(
-      &(lhs->coordinates), &(rhs->coordinates)))
-  {
     return false;
   }
   return true;
@@ -78,12 +61,6 @@ my_simulator_interfaces__msg__Comando__copy(
   output->acc = input->acc;
   // delta
   output->delta = input->delta;
-  // coordinates
-  if (!geometry_msgs__msg__Point__copy(
-      &(input->coordinates), &(output->coordinates)))
-  {
-    return false;
-  }
   return true;
 }
 

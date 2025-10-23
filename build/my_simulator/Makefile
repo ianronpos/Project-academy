@@ -198,24 +198,24 @@ my_simulator_uninstall/fast:
 .PHONY : my_simulator_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named talker
+# Target rules for targets named my_simulator
 
 # Build rule for target.
-talker: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 talker
-.PHONY : talker
+my_simulator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_simulator
+.PHONY : my_simulator
 
 # fast build rule for target.
-talker/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-.PHONY : talker/fast
+my_simulator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_simulator.dir/build.make CMakeFiles/my_simulator.dir/build
+.PHONY : my_simulator/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_simulator.dir/build.make CMakeFiles/my_simulator.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -223,7 +223,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_simulator.dir/build.make CMakeFiles/my_simulator.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -231,7 +231,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_simulator.dir/build.make CMakeFiles/my_simulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/my_simulator.o: src/my_simulator.cpp.o
@@ -239,7 +239,7 @@ src/my_simulator.o: src/my_simulator.cpp.o
 
 # target to build an object file
 src/my_simulator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/my_simulator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_simulator.dir/build.make CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o
 .PHONY : src/my_simulator.cpp.o
 
 src/my_simulator.i: src/my_simulator.cpp.i
@@ -247,7 +247,7 @@ src/my_simulator.i: src/my_simulator.cpp.i
 
 # target to preprocess a source file
 src/my_simulator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/my_simulator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_simulator.dir/build.make CMakeFiles/my_simulator.dir/src/my_simulator.cpp.i
 .PHONY : src/my_simulator.cpp.i
 
 src/my_simulator.s: src/my_simulator.cpp.s
@@ -255,7 +255,7 @@ src/my_simulator.s: src/my_simulator.cpp.s
 
 # target to generate assembly for a file
 src/my_simulator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/my_simulator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_simulator.dir/build.make CMakeFiles/my_simulator.dir/src/my_simulator.cpp.s
 .PHONY : src/my_simulator.cpp.s
 
 # Help Target
@@ -273,7 +273,7 @@ help:
 	@echo "... test"
 	@echo "... my_simulator_uninstall"
 	@echo "... uninstall"
-	@echo "... talker"
+	@echo "... my_simulator"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -17,16 +17,11 @@ extern "C"
 
 // Constants defined in the message
 
-// Include directives for member types
-// Member 'coordinates'
-#include "geometry_msgs/msg/detail/point__struct.h"
-
 /// Struct defined in msg/Comando in the package my_simulator_interfaces.
 typedef struct my_simulator_interfaces__msg__Comando
 {
   float acc;
   float delta;
-  geometry_msgs__msg__Point coordinates;
 } my_simulator_interfaces__msg__Comando;
 
 // Struct for a sequence of my_simulator_interfaces__msg__Comando.

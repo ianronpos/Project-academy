@@ -223,17 +223,12 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typ
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/malloc.h \
   rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__functions.h \
   /usr/include/c++/11/stdlib.h \
-  rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+  rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h
 
 
 /usr/include/c++/11/stdlib.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -583,8 +578,6 @@ rosidl_typesupport_fastrtps_c/my_simulator_interfaces/msg/detail/comando__rosidl
 
 /usr/include/c++/11/iosfwd:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h:
-
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
@@ -606,8 +599,6 @@ rosidl_typesupport_fastrtps_c/my_simulator_interfaces/msg/detail/comando__rosidl
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 

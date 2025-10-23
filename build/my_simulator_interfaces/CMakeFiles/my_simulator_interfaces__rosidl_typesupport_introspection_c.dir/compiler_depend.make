@@ -63,25 +63,8 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_introspection_c.dir/rosid
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   rosidl_generator_c/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+  rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__struct.h
 
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 /usr/include/alloca.h:
 
@@ -102,8 +85,6 @@ CMakeFiles/my_simulator_interfaces__rosidl_typesupport_introspection_c.dir/rosid
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -158,8 +139,6 @@ rosidl_typesupport_introspection_c/my_simulator_interfaces/msg/rosidl_typesuppor
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 rosidl_generator_c/my_simulator_interfaces/msg/detail/comando__functions.h:
 
