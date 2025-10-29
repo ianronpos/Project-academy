@@ -10,6 +10,14 @@ def generate_launch_description():
             name='simulator', 
             output='screen'            
         ), 
+
+        Node(
+          package='my_simulator', 
+          executable='CommandPublisher',
+          name='publisher',
+          output='screen'
+        ),
+
         Node(
             package='rviz2',
             executable='rviz2',
@@ -17,5 +25,6 @@ def generate_launch_description():
             parameters=['-d', 'config/my_simulator.rviz'],
             output='screen'
         ),
+
         ]
     )

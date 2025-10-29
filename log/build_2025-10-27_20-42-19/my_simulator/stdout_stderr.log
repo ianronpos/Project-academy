@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target my_simulator[0m
+[ 40%] Built target CommandPublisher
+[ 60%] [32mBuilding CXX object CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable my_simulator[0m
+[100%] Built target my_simulator
+-- Install configuration: ""
+-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/my_simulator
+-- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/my_simulator" to ""
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/CommandPublisher
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch/my_simulator_launch.py
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config
+-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config/my_simulator.rviz
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/package_run_dependencies/my_simulator
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/parent_prefix_path/my_simulator
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/path.sh
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/path.dsv
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.bash
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.sh
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.zsh
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.dsv
+-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.dsv
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/packages/my_simulator
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/cmake/my_simulatorConfig.cmake
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/cmake/my_simulatorConfig-version.cmake
+-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.xml

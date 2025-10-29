@@ -210,6 +210,43 @@ my_simulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_simulator.dir/build.make CMakeFiles/my_simulator.dir/build
 .PHONY : my_simulator/fast
 
+#=============================================================================
+# Target rules for targets named CommandPublisher
+
+# Build rule for target.
+CommandPublisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CommandPublisher
+.PHONY : CommandPublisher
+
+# fast build rule for target.
+CommandPublisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CommandPublisher.dir/build.make CMakeFiles/CommandPublisher.dir/build
+.PHONY : CommandPublisher/fast
+
+src/CommandPublisher.o: src/CommandPublisher.cpp.o
+.PHONY : src/CommandPublisher.o
+
+# target to build an object file
+src/CommandPublisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CommandPublisher.dir/build.make CMakeFiles/CommandPublisher.dir/src/CommandPublisher.cpp.o
+.PHONY : src/CommandPublisher.cpp.o
+
+src/CommandPublisher.i: src/CommandPublisher.cpp.i
+.PHONY : src/CommandPublisher.i
+
+# target to preprocess a source file
+src/CommandPublisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CommandPublisher.dir/build.make CMakeFiles/CommandPublisher.dir/src/CommandPublisher.cpp.i
+.PHONY : src/CommandPublisher.cpp.i
+
+src/CommandPublisher.s: src/CommandPublisher.cpp.s
+.PHONY : src/CommandPublisher.s
+
+# target to generate assembly for a file
+src/CommandPublisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CommandPublisher.dir/build.make CMakeFiles/CommandPublisher.dir/src/CommandPublisher.cpp.s
+.PHONY : src/CommandPublisher.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -273,7 +310,11 @@ help:
 	@echo "... test"
 	@echo "... my_simulator_uninstall"
 	@echo "... uninstall"
+	@echo "... CommandPublisher"
 	@echo "... my_simulator"
+	@echo "... src/CommandPublisher.o"
+	@echo "... src/CommandPublisher.i"
+	@echo "... src/CommandPublisher.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

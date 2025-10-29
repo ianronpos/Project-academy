@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (my_simulator_interfaces) JobQueued: {'identifier': 'my_simulator_interfaces', 'dependencies': OrderedDict()}
+[0.000310] (my_simulator) JobQueued: {'identifier': 'my_simulator', 'dependencies': OrderedDict([('my_simulator_interfaces', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces')])}
+[0.000345] (my_simulator_interfaces) JobStarted: {'identifier': 'my_simulator_interfaces'}
+[0.024064] (my_simulator_interfaces) JobProgress: {'identifier': 'my_simulator_interfaces', 'progress': 'cmake'}
+[0.028118] (my_simulator_interfaces) JobProgress: {'identifier': 'my_simulator_interfaces', 'progress': 'build'}
+[0.028284] (my_simulator_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'ian'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ian'), ('OLDPWD', '/home/ian'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '1716'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu-22:@/tmp/.ICE-unix/1686,unix/Ubuntu-22:/tmp/.ICE-unix/1686'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/507018be_9a20_4386_9c7f_06e66cc0986d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EZW7E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099320] (-) TimerEvent: {}
+[0.156329] (my_simulator_interfaces) StdoutLine: {'line': b'[  3%] Built target my_simulator_interfaces__cpp\n'}
+[0.158008] (my_simulator_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_simulator_interfaces__rosidl_generator_c\n'}
+[0.174028] (my_simulator_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_my_simulator_interfaces\n'}
+[0.187131] (my_simulator_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_simulator_interfaces__rosidl_typesupport_cpp\n'}
+[0.187723] (my_simulator_interfaces) StdoutLine: {'line': b'[ 32%] Built target my_simulator_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.188028] (my_simulator_interfaces) StdoutLine: {'line': b'[ 41%] Built target my_simulator_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.199637] (-) TimerEvent: {}
+[0.207488] (my_simulator_interfaces) StdoutLine: {'line': b'[ 51%] Built target my_simulator_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.214586] (my_simulator_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_simulator_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.215624] (my_simulator_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_simulator_interfaces__rosidl_typesupport_c\n'}
+[0.238304] (my_simulator_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_simulator_interfaces\n'}
+[0.265129] (my_simulator_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_simulator_interfaces__py\n'}
+[0.291262] (my_simulator_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_simulator_interfaces__rosidl_generator_py\n'}
+[0.300279] (-) TimerEvent: {}
+[0.320680] (my_simulator_interfaces) StdoutLine: {'line': b'[ 87%] Built target my_simulator_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.320832] (my_simulator_interfaces) StdoutLine: {'line': b'[ 93%] Built target my_simulator_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.322123] (my_simulator_interfaces) StdoutLine: {'line': b'[100%] Built target my_simulator_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.400823] (-) TimerEvent: {}
+[0.431082] (my_simulator_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.431901] (my_simulator_interfaces) StdoutLine: {'line': b'writing my_simulator_interfaces.egg-info/PKG-INFO\n'}
+[0.432602] (my_simulator_interfaces) StdoutLine: {'line': b'writing dependency_links to my_simulator_interfaces.egg-info/dependency_links.txt\n'}
+[0.432712] (my_simulator_interfaces) StdoutLine: {'line': b'writing top-level names to my_simulator_interfaces.egg-info/top_level.txt\n'}
+[0.437897] (my_simulator_interfaces) StdoutLine: {'line': b"reading manifest file 'my_simulator_interfaces.egg-info/SOURCES.txt'\n"}
+[0.438705] (my_simulator_interfaces) StdoutLine: {'line': b"writing manifest file 'my_simulator_interfaces.egg-info/SOURCES.txt'\n"}
+[0.465902] (my_simulator_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_simulator_interfaces_egg\n'}
+[0.479536] (my_simulator_interfaces) CommandEnded: {'returncode': 0}
+[0.481960] (my_simulator_interfaces) JobProgress: {'identifier': 'my_simulator_interfaces', 'progress': 'install'}
+[0.490562] (my_simulator_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces'], 'cwd': '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'ian'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ian'), ('OLDPWD', '/home/ian'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '1716'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu-22:@/tmp/.ICE-unix/1686,unix/Ubuntu-22:/tmp/.ICE-unix/1686'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/507018be_9a20_4386_9c7f_06e66cc0986d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EZW7E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.500405] (my_simulator_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.501116] (-) TimerEvent: {}
+[0.501494] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_simulator_interfaces\n'}
+[0.501665] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces\n'}
+[0.501718] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg\n'}
+[0.501757] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.501798] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail\n'}
+[0.501836] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.h\n'}
+[0.501873] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__functions.h\n'}
+[0.501909] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__struct.h\n'}
+[0.501944] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__functions.c\n'}
+[0.501985] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/comando.h\n'}
+[0.502044] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/library_path.sh\n'}
+[0.502079] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/library_path.dsv\n'}
+[0.504610] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_generator_c.so\n'}
+[0.504748] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces\n'}
+[0.504951] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg\n'}
+[0.505001] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail\n'}
+[0.505124] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__rosidl_typesupport_fastrtps_c.h\n'}
+[0.505321] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.505425] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.505502] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces\n'}
+[0.505648] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg\n'}
+[0.505727] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail\n'}
+[0.505801] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__rosidl_typesupport_introspection_c.h\n'}
+[0.505881] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.c\n'}
+[0.505955] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.506011] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.506173] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_c.so\n'}
+[0.506424] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces\n'}
+[0.506516] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg\n'}
+[0.506752] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail\n'}
+[0.506837] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.hpp\n'}
+[0.506900] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__traits.hpp\n'}
+[0.506958] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__builder.hpp\n'}
+[0.507092] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__struct.hpp\n'}
+[0.507173] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/comando.hpp\n'}
+[0.507335] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.507488] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces\n'}
+[0.507564] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg\n'}
+[0.507612] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail\n'}
+[0.507650] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.507686] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/dds_fastrtps\n'}
+[0.507741] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.507777] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.507812] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces\n'}
+[0.507847] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg\n'}
+[0.507884] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail\n'}
+[0.507918] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.507953] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.cpp\n'}
+[0.507989] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.508022] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.508071] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/pythonpath.sh\n'}
+[0.508125] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/pythonpath.dsv\n'}
+[0.508182] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.508222] (my_simulator_interfaces) StdoutLine: {'line': b'-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.508340] (my_simulator_interfaces) StdoutLine: {'line': b'-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.508412] (my_simulator_interfaces) StdoutLine: {'line': b'-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.508452] (my_simulator_interfaces) StdoutLine: {'line': b'-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.508493] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces\n'}
+[0.508529] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/__init__.py\n'}
+[0.508563] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.508598] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.508635] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg\n'}
+[0.508669] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg/__init__.py\n'}
+[0.508702] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg/_comando_s.c\n'}
+[0.508736] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg/_comando.py\n'}
+[0.508775] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.508810] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.508845] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.508882] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/libmy_simulator_interfaces__rosidl_generator_py.so\n'}
+[0.508916] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/_my_simulator_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.549140] (my_simulator_interfaces) StdoutLine: {'line': b"Listing '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces'...\n"}
+[0.549411] (my_simulator_interfaces) StdoutLine: {'line': b"Listing '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/msg'...\n"}
+[0.554133] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.554903] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.555252] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages/my_simulator_interfaces/my_simulator_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.555594] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib/libmy_simulator_interfaces__rosidl_generator_py.so\n'}
+[0.555750] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/msg/Comando.idl\n'}
+[0.555870] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/msg/Comando.msg\n'}
+[0.555982] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/ament_index/resource_index/package_run_dependencies/my_simulator_interfaces\n'}
+[0.556097] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/ament_index/resource_index/parent_prefix_path/my_simulator_interfaces\n'}
+[0.556196] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/ament_prefix_path.sh\n'}
+[0.556324] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.556368] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/path.sh\n'}
+[0.556462] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/environment/path.dsv\n'}
+[0.556514] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/local_setup.bash\n'}
+[0.556605] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/local_setup.sh\n'}
+[0.556652] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/local_setup.zsh\n'}
+[0.556688] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/local_setup.dsv\n'}
+[0.556803] (my_simulator_interfaces) StdoutLine: {'line': b'-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.dsv\n'}
+[0.557410] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/ament_index/resource_index/packages/my_simulator_interfaces\n'}
+[0.557949] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.558096] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.558650] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.558819] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.559307] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.559482] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.560001] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.560153] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.560530] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.561145] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.561441] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.561679] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.561865] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.562287] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.562559] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.563025] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.563255] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/export_my_simulator_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.563352] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.563482] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.563544] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.563671] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.563734] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.563786] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.563912] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.563963] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfacesConfig.cmake\n'}
+[0.564019] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/cmake/my_simulator_interfacesConfig-version.cmake\n'}
+[0.564123] (my_simulator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/share/my_simulator_interfaces/package.xml\n'}
+[0.567852] (my_simulator_interfaces) CommandEnded: {'returncode': 0}
+[0.601273] (-) TimerEvent: {}
+[0.606144] (my_simulator_interfaces) JobEnded: {'identifier': 'my_simulator_interfaces', 'rc': 0}
+[0.607529] (my_simulator) JobStarted: {'identifier': 'my_simulator'}
+[0.614682] (my_simulator) JobProgress: {'identifier': 'my_simulator', 'progress': 'cmake'}
+[0.617186] (my_simulator) JobProgress: {'identifier': 'my_simulator', 'progress': 'build'}
+[0.617287] (my_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator', '--', '-j4', '-l4'], 'cwd': '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'ian'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ian'), ('OLDPWD', '/home/ian'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '1716'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu-22:@/tmp/.ICE-unix/1686,unix/Ubuntu-22:/tmp/.ICE-unix/1686'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/507018be_9a20_4386_9c7f_06e66cc0986d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EZW7E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.698183] (my_simulator) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CommandPublisher\x1b[0m\n'}
+[0.701457] (-) TimerEvent: {}
+[0.712224] (my_simulator) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o\x1b[0m\n'}
+[0.712491] (my_simulator) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_simulator.dir/src/main.cpp.o\x1b[0m\n'}
+[0.717568] (my_simulator) StdoutLine: {'line': b'[ 80%] Built target CommandPublisher\n'}
+[0.802407] (-) TimerEvent: {}
+[0.906676] (-) TimerEvent: {}
+[1.007663] (-) TimerEvent: {}
+[1.108100] (-) TimerEvent: {}
+[1.208678] (-) TimerEvent: {}
+[1.309943] (-) TimerEvent: {}
+[1.411729] (-) TimerEvent: {}
+[1.512143] (-) TimerEvent: {}
+[1.613522] (-) TimerEvent: {}
+[1.714503] (-) TimerEvent: {}
+[1.816245] (-) TimerEvent: {}
+[1.917686] (-) TimerEvent: {}
+[2.020141] (-) TimerEvent: {}
+[2.120724] (-) TimerEvent: {}
+[2.221533] (-) TimerEvent: {}
+[2.322688] (-) TimerEvent: {}
+[2.433915] (-) TimerEvent: {}
+[2.544209] (-) TimerEvent: {}
+[2.652186] (-) TimerEvent: {}
+[2.756575] (-) TimerEvent: {}
+[2.862856] (-) TimerEvent: {}
+[2.978373] (-) TimerEvent: {}
+[3.094631] (-) TimerEvent: {}
+[3.213444] (-) TimerEvent: {}
+[3.331311] (-) TimerEvent: {}
+[3.432557] (-) TimerEvent: {}
+[3.541775] (-) TimerEvent: {}
+[3.656348] (-) TimerEvent: {}
+[3.757465] (-) TimerEvent: {}
+[3.859931] (-) TimerEvent: {}
+[3.961223] (-) TimerEvent: {}
+[4.062402] (-) TimerEvent: {}
+[4.164103] (-) TimerEvent: {}
+[4.265410] (-) TimerEvent: {}
+[4.366638] (-) TimerEvent: {}
+[4.477706] (-) TimerEvent: {}
+[4.579313] (-) TimerEvent: {}
+[4.680838] (-) TimerEvent: {}
+[4.782035] (-) TimerEvent: {}
+[4.883331] (-) TimerEvent: {}
+[4.984320] (-) TimerEvent: {}
+[5.084831] (-) TimerEvent: {}
+[5.187311] (-) TimerEvent: {}
+[5.289319] (-) TimerEvent: {}
+[5.393968] (-) TimerEvent: {}
+[5.494447] (-) TimerEvent: {}
+[5.603057] (-) TimerEvent: {}
+[5.704401] (-) TimerEvent: {}
+[5.808641] (-) TimerEvent: {}
+[5.911487] (-) TimerEvent: {}
+[6.012313] (-) TimerEvent: {}
+[6.116450] (-) TimerEvent: {}
+[6.217616] (-) TimerEvent: {}
+[6.319701] (-) TimerEvent: {}
+[6.420807] (-) TimerEvent: {}
+[6.523457] (-) TimerEvent: {}
+[6.624810] (-) TimerEvent: {}
+[6.728071] (-) TimerEvent: {}
+[6.831843] (-) TimerEvent: {}
+[6.933515] (-) TimerEvent: {}
+[7.037528] (-) TimerEvent: {}
+[7.140416] (-) TimerEvent: {}
+[7.243382] (-) TimerEvent: {}
+[7.344627] (-) TimerEvent: {}
+[7.448887] (-) TimerEvent: {}
+[7.551182] (-) TimerEvent: {}
+[7.655292] (-) TimerEvent: {}
+[7.757649] (-) TimerEvent: {}
+[7.858321] (-) TimerEvent: {}
+[7.961621] (-) TimerEvent: {}
+[8.064933] (-) TimerEvent: {}
+[8.166584] (-) TimerEvent: {}
+[8.270251] (-) TimerEvent: {}
+[8.375280] (-) TimerEvent: {}
+[8.481686] (-) TimerEvent: {}
+[8.584266] (-) TimerEvent: {}
+[8.687841] (-) TimerEvent: {}
+[8.789455] (-) TimerEvent: {}
+[8.890080] (-) TimerEvent: {}
+[8.993784] (-) TimerEvent: {}
+[9.099054] (-) TimerEvent: {}
+[9.203126] (-) TimerEvent: {}
+[9.310019] (-) TimerEvent: {}
+[9.411707] (-) TimerEvent: {}
+[9.512886] (-) TimerEvent: {}
+[9.616600] (-) TimerEvent: {}
+[9.719336] (-) TimerEvent: {}
+[9.820959] (-) TimerEvent: {}
+[9.923218] (-) TimerEvent: {}
+[10.025300] (-) TimerEvent: {}
+[10.127001] (-) TimerEvent: {}
+[10.228966] (-) TimerEvent: {}
+[10.332190] (-) TimerEvent: {}
+[10.435354] (-) TimerEvent: {}
+[10.536567] (-) TimerEvent: {}
+[10.639759] (-) TimerEvent: {}
+[10.745682] (-) TimerEvent: {}
+[10.846396] (-) TimerEvent: {}
+[10.947628] (-) TimerEvent: {}
+[11.054557] (-) TimerEvent: {}
+[11.157197] (-) TimerEvent: {}
+[11.262160] (-) TimerEvent: {}
+[11.363177] (-) TimerEvent: {}
+[11.464232] (-) TimerEvent: {}
+[11.565115] (-) TimerEvent: {}
+[11.667802] (-) TimerEvent: {}
+[11.697611] (my_simulator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_simulator\x1b[0m\n'}
+[11.768414] (-) TimerEvent: {}
+[11.869483] (-) TimerEvent: {}
+[11.969885] (-) TimerEvent: {}
+[12.071979] (-) TimerEvent: {}
+[12.174909] (-) TimerEvent: {}
+[12.275554] (-) TimerEvent: {}
+[12.348454] (my_simulator) StdoutLine: {'line': b'[100%] Built target my_simulator\n'}
+[12.358898] (my_simulator) CommandEnded: {'returncode': 0}
+[12.361710] (my_simulator) JobProgress: {'identifier': 'my_simulator', 'progress': 'install'}
+[12.363147] (my_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator'], 'cwd': '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'ian'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ian'), ('OLDPWD', '/home/ian'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '1716'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu-22:@/tmp/.ICE-unix/1686,unix/Ubuntu-22:/tmp/.ICE-unix/1686'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/507018be_9a20_4386_9c7f_06e66cc0986d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EZW7E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/opt/ros/humble')]), 'shell': False}
+[12.371557] (my_simulator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.371789] (my_simulator) StdoutLine: {'line': b'-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/my_simulator\n'}
+[12.375934] (-) TimerEvent: {}
+[12.377063] (my_simulator) StdoutLine: {'line': b'-- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/my_simulator" to ""\n'}
+[12.379986] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/CommandPublisher\n'}
+[12.380132] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch\n'}
+[12.380205] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch/my_simulator_launch.py\n'}
+[12.380320] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config\n'}
+[12.380388] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config/my_simulator.rviz\n'}
+[12.380446] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/package_run_dependencies/my_simulator\n'}
+[12.380504] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/parent_prefix_path/my_simulator\n'}
+[12.380561] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/ament_prefix_path.sh\n'}
+[12.380621] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/ament_prefix_path.dsv\n'}
+[12.380680] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/path.sh\n'}
+[12.380733] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/path.dsv\n'}
+[12.380803] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.bash\n'}
+[12.380860] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.sh\n'}
+[12.381260] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.zsh\n'}
+[12.381658] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.dsv\n'}
+[12.381738] (my_simulator) StdoutLine: {'line': b'-- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.dsv\n'}
+[12.381801] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/packages/my_simulator\n'}
+[12.381869] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/cmake/my_simulatorConfig.cmake\n'}
+[12.381926] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/cmake/my_simulatorConfig-version.cmake\n'}
+[12.381984] (my_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.xml\n'}
+[12.384811] (my_simulator) CommandEnded: {'returncode': 0}
+[12.396944] (my_simulator) JobEnded: {'identifier': 'my_simulator', 'rc': 0}
+[12.397822] (-) EventReactorShutdown: {}

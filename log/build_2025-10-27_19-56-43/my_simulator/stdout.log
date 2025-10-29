@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target CommandPublisher[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/CommandPublisher.dir/src/CommandPublisher.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable CommandPublisher[0m
+[ 80%] [32m[1mLinking CXX executable my_simulator[0m
+[100%] Built target my_simulator

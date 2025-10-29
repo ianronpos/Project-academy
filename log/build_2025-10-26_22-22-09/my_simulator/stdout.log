@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target my_simulator[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/my_simulator.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o[0m

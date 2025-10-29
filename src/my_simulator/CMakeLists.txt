@@ -9,8 +9,9 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(my_simulator_interfaces REQUIRED)
-# uncomment the following section in order to fill in further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 include_directories(
   include
@@ -19,12 +20,28 @@ include_directories(
 #Crear ejecutable 
 add_executable(
   my_simulator src/main.cpp src/my_simulator.cpp
+)
+
+ament_target_dependencies(my_simulator 
+  rclcpp 
+  my_simulator_interfaces
+  tf2_ros
+  tf2 
+  geometry_msgs
   )
 
-ament_target_dependencies(my_simulator rclcpp my_simulator_interfaces)
+add_executable(
+  CommandPublisher src/CommandPublisher.cpp 
+)
+
+ament_target_dependencies(CommandPublisher
+  rclcpp 
+  my_simulator_interfaces
+)
 
 install(TARGETS
   my_simulator
+  CommandPublisher
   DESTINATION lib/${PROJECT_NAME}
 )
 

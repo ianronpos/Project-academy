@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target my_simulator[0m
+[0.054s] [ 66%] [32mBuilding CXX object CMakeFiles/my_simulator.dir/src/main.cpp.o[0m
+[0.055s] [ 66%] [32mBuilding CXX object CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o[0m
+[1.463s] [01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.463s] [01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/main.cpp:5:35:[m[K [01;31m[Kerror: [m[K‘[01m[KMySimulator[m[K’ was not declared in this scope
+[1.463s]     5 |     rclcpp::spin(std::make_shared<[01;31m[KMySimulator[m[K>());
+[1.463s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[1.463s] [01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/main.cpp:5:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.463s]     5 |     rclcpp::spin([01;31m[Kstd::make_shared<MySimulator>()[m[K);
+[1.464s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.464s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.464s]                  from [01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/main.cpp:1[m[K:
+[1.464s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.466s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.466s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.466s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.466s] [01m[K/home/ian/Documents/ARUS/proyect_academy/src/my_simulator/src/main.cpp:5:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.466s]     5 |     rclcpp::spin([01;31m[Kstd::make_shared<MySimulator>()[m[K);
+[1.466s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.803s] gmake[2]: *** [CMakeFiles/my_simulator.dir/build.make:76: CMakeFiles/my_simulator.dir/src/main.cpp.o] Error 1
+[1.803s] gmake[2]: *** Waiting for unfinished jobs....
+[5.438s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_simulator.dir/all] Error 2
+[5.438s] gmake: *** [Makefile:146: all] Error 2
+[5.440s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '2': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4

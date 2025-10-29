@@ -1,0 +1,15 @@
+[0.006s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': AMENT_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target CommandPublisher[0m
+[0.048s] [ 20%] [32mBuilding CXX object CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o[0m
+[0.049s] [ 40%] [32mBuilding CXX object CMakeFiles/CommandPublisher.dir/src/CommandPublisher.cpp.o[0m
+[2.196s] [ 60%] [32m[1mLinking CXX executable CommandPublisher[0m
+[2.318s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.318s] (.text+0x1b): undefined reference to `main'
+[2.324s] collect2: error: ld returned 1 exit status
+[2.326s] gmake[2]: *** [CMakeFiles/CommandPublisher.dir/build.make:159: CommandPublisher] Error 1
+[2.326s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/CommandPublisher.dir/all] Error 2
+[2.326s] gmake[1]: *** Waiting for unfinished jobs....
+[5.417s] [ 80%] [32m[1mLinking CXX executable my_simulator[0m
+[5.730s] [100%] Built target my_simulator
+[5.731s] gmake: *** [Makefile:146: all] Error 2
+[5.732s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '2': AMENT_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4

@@ -624,4 +624,39 @@ CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o: \
  /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__builder.hpp \
  /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__traits.hpp \
  /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/detail/comando__type_support.hpp \
- /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces/include/my_simulator_interfaces/my_simulator_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
+ /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
+ /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.hpp

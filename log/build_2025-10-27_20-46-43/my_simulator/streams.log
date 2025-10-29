@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target my_simulator[0m
+[0.045s] [ 40%] Built target CommandPublisher
+[0.049s] [ 60%] [32mBuilding CXX object CMakeFiles/my_simulator.dir/src/my_simulator.cpp.o[0m
+[5.147s] [ 80%] [32m[1mLinking CXX executable my_simulator[0m
+[5.417s] [100%] Built target my_simulator
+[5.425s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --build /home/ian/Documents/ARUS/proyect_academy/build/my_simulator -- -j4 -l4
+[5.425s] Invoking command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator
+[5.430s] -- Install configuration: ""
+[5.430s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/my_simulator
+[5.432s] -- Set runtime path of "/home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/my_simulator" to ""
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/lib/my_simulator/CommandPublisher
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/launch/my_simulator_launch.py
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/config/my_simulator.rviz
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/package_run_dependencies/my_simulator
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/parent_prefix_path/my_simulator
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/ament_prefix_path.sh
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/ament_prefix_path.dsv
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/path.sh
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/environment/path.dsv
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.bash
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.sh
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.zsh
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/local_setup.dsv
+[5.433s] -- Installing: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.dsv
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/ament_index/resource_index/packages/my_simulator
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/cmake/my_simulatorConfig.cmake
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/cmake/my_simulatorConfig-version.cmake
+[5.433s] -- Up-to-date: /home/ian/Documents/ARUS/proyect_academy/install/my_simulator/share/my_simulator/package.xml
+[5.436s] Invoked command in '/home/ian/Documents/ARUS/proyect_academy/build/my_simulator' returned '0': CMAKE_PREFIX_PATH=/home/ian/Documents/ARUS/proyect_academy/install/my_simulator_interfaces:/home/ian/Documents/ARUS/proyect_academy/install/my_simulator:/opt/ros/humble /usr/bin/cmake --install /home/ian/Documents/ARUS/proyect_academy/build/my_simulator
