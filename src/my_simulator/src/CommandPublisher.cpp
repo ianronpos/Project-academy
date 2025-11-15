@@ -26,13 +26,12 @@ class CommandPublisher : public rclcpp::Node {
 }; 
 
 void CommandPublisher::timerCallback(){ 
-    if(cnt_%3000 == 0){ 
+    if(cnt_%400 == 0){ 
         direction_ = -1 * direction_; 
     }
 
     msg_.acc = acc_; 
-    //msg_.delta = 0.35 * direction_; //Aprox 20º
-    msg_.delta = 0.0; 
+    msg_.delta = 0.35 * direction_; //Aprox 20º
 
     //Publicar mensage 
     publisher_->publish(msg_); 

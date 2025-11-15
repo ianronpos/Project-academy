@@ -43,7 +43,8 @@ void MySimulator::updateState(){
 
     //Comprobacion para ver si llegan nuevos comandos y si no se esta acelerando
     //ya que puede estar un rato acelerando de forma continua y sin girar, por ejemplo una recta larga 
-    if(now.seconds() - last_command_time_.seconds() > 60.0 && last_command_.acc == 0){ 
+    if(now.seconds() - last_command_time_.seconds() > 2){  
+        //TODO: REVISAR CONDICION 
         if(vel_ >= 0){ //Comprobando si el coche iba hacia delante   
             vel_ -= vel_ * friction; 
         } else { //Si el coche iba hacia atras 
